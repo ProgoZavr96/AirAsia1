@@ -1,0 +1,33 @@
+.contacts {
+    margin-left: auto;
+    
+}
+
+.contacts__tel {
+    font-size: 26px;
+    margin-left: 36px;
+}
+
+.graph {
+    color: #FFF;
+    font-size: 13px;
+    margin-left: 111px;
+}
+
+.graph__hover {
+    position: relative;
+    display: none;
+}
+
+.graph:hover .graph__hover {
+    display: block;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -21px;
+}
+
+.contacts__free-call {
+    color: #9A9A9A;
+    font-size: 11px;
+    margin-left: 27px;     
+}

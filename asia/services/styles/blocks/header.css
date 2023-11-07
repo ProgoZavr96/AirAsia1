@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    height: 412px;
+    flex-direction: column;
+    background-image: url(../../../image/headline\ 1.png);
+    background-repeat: no-repeat;
+    }
+
+.header__first {
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.header__second {
+    margin-top: 97px;
+}
+
+.header__third {
+    margin-top: 103px;
+}

@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    background: #001821;
+    height: 132px;
+}
+
+.container--footer {
+    flex-direction: row;
+    align-items: center;
+}

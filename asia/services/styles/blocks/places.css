@@ -1,0 +1,38 @@
+.places {
+    margin-top: 98px;
+    display: flex;
+    flex-direction: column;
+}
+
+.places__table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 715px;
+}
+
+.places__table-item {
+    display: flex;
+}
+
+.places__flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 58px;
+    margin-top: 12px;
+}
+
+.places__table-item-subtitle {
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+
+.places__table-item-text {
+    font-size: 16px;
+    color: #303030;
+}
+
+.button--places {
+    align-self: flex-start;
+    margin-top: 34px;
+}

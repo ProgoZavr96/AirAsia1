@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     margin: 50px 31px 32px;
+    width: 495px;
 }
 
 .reviews__item {
@@ -23,13 +24,18 @@
 
 .reviews__avatar-place {
     background: #B9EAE4;
-    width: 143px;
     height: 37px;
     border-radius: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 13px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews__avatar-text {
+    margin-left: 18px;
+    margin-right: 18px;
+  
 }
 
 .reviews__item-review {
@@ -39,8 +45,6 @@
 }
 
 .reviews__avatar-info {
-    display: flex;
-    flex-direction: column;
     margin-left: 22px;
 }
 

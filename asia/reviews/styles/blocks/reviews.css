@@ -1,8 +1,9 @@
 .reviews__table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 98px;
+
 }
 
 .reviews__item-avatar {
@@ -20,6 +21,7 @@
 
 .reviews__item {
     background: #F4F5F5;
+    margin-top: 18px;
 }
 
 .reviews__avatar-place {

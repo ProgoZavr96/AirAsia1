@@ -42,20 +42,5 @@
 
 .sending__choice-title {
     margin-right: 74px;
-}
-
-.sending__choice-title-text {
     font-size: 18px;
-}
-
-.button--choice {
-    background: #dde2e2;
-    color: #303030;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 35px;
-    min-width: 168px;
-    min-height: 55px;
-    cursor: pointer;
 }

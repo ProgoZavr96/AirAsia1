@@ -1,0 +1,61 @@
+.sending {
+    background: #F4F5F5;
+}
+
+.sending__title {
+    margin-top: 62px;
+    font-size: 48px;
+}
+
+.sending__forms {
+    margin-top: 57px;
+}
+
+.sending__form {
+    margin-right: 28px;
+    flex: 1;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.sending__form:last-child {
+    margin-right: 0px;
+}
+
+.sending__form--textarea {
+    height: 235px;
+    margin-top: 26px;
+}
+
+.sending__forms-item {
+    display: flex;
+}
+
+.sending__choice {
+    margin-top: 34px;
+    display: flex;
+}
+
+.sending__choice-title {
+    margin-right: 74px;
+}
+
+.sending__choice-title-text {
+    font-size: 18px;
+}
+
+.button--choice {
+    background: #dde2e2;
+    color: #303030;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 35px;
+    min-width: 168px;
+    min-height: 55px;
+    cursor: pointer;
+}

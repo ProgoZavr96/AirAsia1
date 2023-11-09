@@ -1,9 +1,6 @@
 .reviews__table {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    column-count: 2;
     margin-top: 98px;
-
 }
 
 .reviews__item-avatar {
@@ -20,6 +17,8 @@
 }
 
 .reviews__item {
+    display: inline-flex;
+    flex-direction: column;
     background: #F4F5F5;
     margin-top: 18px;
 }
@@ -32,6 +31,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3px;
 }
 
 .reviews__avatar-text {
@@ -42,8 +42,20 @@
 
 .reviews__item-review {
     width: 495px;
-    font-size: 16px;
     margin-bottom: 48px;
+}
+
+.reviews__text {
+    font-size: 16px;
+    color: #818181;
+    line-height: 27px;
+}
+
+.reviews__time {
+    color: #1A1B1E;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
 }
 
 .reviews__avatar-info {

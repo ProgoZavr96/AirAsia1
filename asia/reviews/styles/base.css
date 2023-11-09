@@ -76,3 +76,11 @@
         color: #F5170E;
         border-color: #F5170E;
 }
+
+input {
+    border: 1px solid transparent;
+}
+
+input:hover {
+    border: 1px solid #F5170E;
+}
